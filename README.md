@@ -1,6 +1,6 @@
 Project Summary
 ===============
-Create an image with Dockerfile, run it in a container, and delete both image and container.</br>
+Create an image with a defined Dockerfile, run it in a container, and delete both image and container.</br>
 
 Files Introduction
 ==================

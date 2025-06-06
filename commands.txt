@@ -1,0 +1,23 @@
+1. Open docker-desktop
+    systemctl --user start docker-desktop
+
+2. Build image
+    docker build . -t flask_helloworld
+
+3. check image
+    docker images
+
+4. run image at backend
+    docker run -dt flask_helloworld
+
+5. check running container
+    docker ps
+
+6. stop the running container
+    docker stop 71e7
+
+7. remove the created container
+    docker rm 71e7
+
+8. remove the created image
+    docker rmi flask_helloworld
